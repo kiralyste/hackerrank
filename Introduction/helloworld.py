@@ -1,4 +1,4 @@
-""" Hello World! """
+''' Hello World! '''
 
 def greetings(msg):
     """ return the value """
