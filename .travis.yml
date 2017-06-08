@@ -1,7 +1,9 @@
 language: python
   - "3.6"
+
 #command to install dependencies
 install: 
+- pip install pytest 
 #- pip install -r requirements.txt"
 
-script: python -m pytest -v Test_Introduction
+script: pytest -v Test_Introduction
