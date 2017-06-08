@@ -9,8 +9,8 @@ script: pytest -v Test_Introduction
 addons:
   apt:
     packages:
+      - oracle-java8-installer
       - oracle-java8-set-default
-
   sonarqube:
     organization: "kiralyste-github" # the key of the org you chose at step #3
     token:
