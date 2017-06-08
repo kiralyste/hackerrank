@@ -10,7 +10,7 @@ install:
 script: 
 - java -version
 #- pytest -v Test_Introduction
-- sonar-scanner -X
+- sonar-scanner
 
 addons:
   apt:
@@ -20,3 +20,4 @@ addons:
     organization: "kiralyste" # the key of the org you chose at step #3
     token:
       secure: "d8SrF9XmQ4lJU+UHc0qfp1JWE7z6DT5OwFEiv/xOXu821Ols/utqGBfjNxU7hitw/QP/WPT/04aSfetS7fvhySh+uXOhun3SnPwxmoCv0mRLhW0sQjnlKxZl0x/zbDVS5BdFy4HKROwu7iH/u7sKT8BFSkAlHV5Cv5eZFaCja/lO7WpXv5+BU2jorkFl8arsXlWE+IRwoa5xxuWTAC2XWv7adoxHCqCmmt90FVsw/sK4LTq4CK64TwJbtwvU5eL4FjFUCTKA1RX365g6qd3wHTeSjogft8mK0vs8Y2vqb1aMZlhVilXOg8F6n7KWf1Q7evMx04GaehuNY0AyTEJtG+/bDXVQy6ZJEoQFWulrGC8QcJ5gp1H1qNR/LrSE788pr2+TCJXZAemDV5z343XPfNiW59Gq6sacrnNlWqCsZc1NPcG77YmaZwtKtBRs5A1D+1YexSNVmApogv8NO3UfMudXhMMQqhaOELiwO43M107KSl3D5njk4wTaPJpXyKNnFhaSz8G3yBbutakbe7c+5VDe1iRNCVNq15OTfbtlq1qHfqhKgfymJ9Sdkvas0eXZOqtyVNHlMNkNouCcsnZZ1rm5ejpoCxWsLnUVSCmSLIlICY8PcNi+pY/BDS1bSzJWGUMM2EUjb7jbZMFl5u2xxmWKhx5/mvn6dKVoq+ZiocQ="
+      Dsonar.login=$SOMEVAR
