@@ -23,10 +23,10 @@ def test_even_in_range_6_20():
 
 def test_even_greater_20():
     assert pythonifelse.ifelse(20) == "Weird"
-    assert pythonifelse.ifelse(421) == "Not Weird"
-    assert pythonifelse.ifelse(21) == "Not Weird"
-    assert pythonifelse.ifelse(311) == "Not Weird"
-    assert pythonifelse.ifelse(31) == "Not Weird"
+    assert pythonifelse.ifelse(421) == "Weird"
+    assert pythonifelse.ifelse(21) == "Weird"
+    assert pythonifelse.ifelse(311) == "Weird"
+    assert pythonifelse.ifelse(31) == "Weird"
 
 
 
