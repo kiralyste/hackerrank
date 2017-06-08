@@ -4,10 +4,10 @@ language: python
 #command to install dependencies
 
 before_install:
-- pip install --upgrade pip
+- pip install pytest 
+
 
 install: 
-- pip install pytest 
 #- pip install -r requirements.txt"
 
 script: pytest -v Test_Introduction
