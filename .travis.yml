@@ -1,3 +1,6 @@
+dist: trusty
+sudo: required
+
 language: python
 python:
 - '3.6'
@@ -6,13 +9,14 @@ install:
 
 script: 
 - java -version
-- pytest -v Test_Introduction
-- sonar-scanner
+#- pytest -v Test_Introduction
+#- sonar-scanner
 
 addons:
   apt:
     packages:
       - oracle-java8-installer
+  
   sonarqube:
     organization: "kiralyste-github" # the key of the org you chose at step #3
     token:
