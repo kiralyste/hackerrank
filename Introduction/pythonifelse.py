@@ -1,4 +1,4 @@
-""" Python If-Else"""
+""" Python If-Else """
 
 def ifelse(num):
     """ Handle different if-else Statements"""
