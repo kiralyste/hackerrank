@@ -17,6 +17,6 @@ addons:
     packages:
       - oracle-java8-installer
   sonarqube:
-    organization: "kiralyste" # the key of the org you chose at step #3
+    organization: "kiralyste-github" # the key of the org you chose at step #3
     token:
       secure: "M1APBIkXBApk5th14u3rw5sp7QvacvzIAtl36JYcDGkFTqejGUK9Zyk4hDkq/bVAiGzGVHsIl1Z2EiwVJdA0PlaRk7ztpy5o6YFYJz98mZf7uM9yPpW3kn7rkKYqL6I++UyR0nZXdnz7WMqaOVYnKtqb9D4B3FwK3iYrvcPMQ0U2V42CbzZsDwJZpaODFPz8kU7N7010/FiLfYM9zAHZ2kgBQTnyKqYURnAimmEJltCso1aV4jOOq8FAPAa9fQMljGTJ4AmHvTieTYKEPrVvQbpcmKXhdXwQ4dE3QYisirOKpNfR04OK/QoC0yytxaYXs3151Mrq8mKH8ImDOpFhCqYArnCbNIzPVAQ3N8TPnRCcUT+v0Rb+WiO8fRJ8bSWB6zmDGJo0dBI3SpVpz5kE4pw25mYLNzRzXHtTH4sZ5o15rdp2CjLU+M9u97vm9P06dGbiKl2Tzwr71xI2RYuYw887+hqIRgsgKDhqdOvqb9gdxefz1G9LpjA8st9OYzxr0Y3qAs5o8k4YaFAJlpZJy+r310D57oIYpCllzsD7xs+W9NRoLhhvB1hNWyQ6PFyFI/qqRVgjeYvkMQ4IU4cxLE8OOjyEiPvubsYVBgsONV1JjHPwXKuxXUM+Hg9uwTOwn+iy/ZothPN/NuT97SSH63EW73FyEIL87JZdS8J/Qfw="
