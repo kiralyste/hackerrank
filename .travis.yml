@@ -2,13 +2,7 @@ language: python
 python:
   - "3.6"
 
-#command to install dependencies
-
-before_install:
-#- pip install pytest 
-
 install:
-#  - pip install pytest>=2.7.3 --upgrade
 #- pip install -r requirements.txt"
 
-script: pytest Test_Introduction
+script: pytest -v Test_Introduction
