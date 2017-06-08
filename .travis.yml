@@ -8,7 +8,7 @@ python:
 install: 
 
 script: 
-- java -version
+#- java -version
 #- pytest -v Test_Introduction
 - sonar-scanner
 
@@ -19,5 +19,4 @@ addons:
   sonarqube:
     organization: "kiralyste" # the key of the org you chose at step #3
     token:
-      secure: "d8SrF9XmQ4lJU+UHc0qfp1JWE7z6DT5OwFEiv/xOXu821Ols/utqGBfjNxU7hitw/QP/WPT/04aSfetS7fvhySh+uXOhun3SnPwxmoCv0mRLhW0sQjnlKxZl0x/zbDVS5BdFy4HKROwu7iH/u7sKT8BFSkAlHV5Cv5eZFaCja/lO7WpXv5+BU2jorkFl8arsXlWE+IRwoa5xxuWTAC2XWv7adoxHCqCmmt90FVsw/sK4LTq4CK64TwJbtwvU5eL4FjFUCTKA1RX365g6qd3wHTeSjogft8mK0vs8Y2vqb1aMZlhVilXOg8F6n7KWf1Q7evMx04GaehuNY0AyTEJtG+/bDXVQy6ZJEoQFWulrGC8QcJ5gp1H1qNR/LrSE788pr2+TCJXZAemDV5z343XPfNiW59Gq6sacrnNlWqCsZc1NPcG77YmaZwtKtBRs5A1D+1YexSNVmApogv8NO3UfMudXhMMQqhaOELiwO43M107KSl3D5njk4wTaPJpXyKNnFhaSz8G3yBbutakbe7c+5VDe1iRNCVNq15OTfbtlq1qHfqhKgfymJ9Sdkvas0eXZOqtyVNHlMNkNouCcsnZZ1rm5ejpoCxWsLnUVSCmSLIlICY8PcNi+pY/BDS1bSzJWGUMM2EUjb7jbZMFl5u2xxmWKhx5/mvn6dKVoq+ZiocQ="
-      Dsonar.login=$SOMEVAR
+      secure: "M1APBIkXBApk5th14u3rw5sp7QvacvzIAtl36JYcDGkFTqejGUK9Zyk4hDkq/bVAiGzGVHsIl1Z2EiwVJdA0PlaRk7ztpy5o6YFYJz98mZf7uM9yPpW3kn7rkKYqL6I++UyR0nZXdnz7WMqaOVYnKtqb9D4B3FwK3iYrvcPMQ0U2V42CbzZsDwJZpaODFPz8kU7N7010/FiLfYM9zAHZ2kgBQTnyKqYURnAimmEJltCso1aV4jOOq8FAPAa9fQMljGTJ4AmHvTieTYKEPrVvQbpcmKXhdXwQ4dE3QYisirOKpNfR04OK/QoC0yytxaYXs3151Mrq8mKH8ImDOpFhCqYArnCbNIzPVAQ3N8TPnRCcUT+v0Rb+WiO8fRJ8bSWB6zmDGJo0dBI3SpVpz5kE4pw25mYLNzRzXHtTH4sZ5o15rdp2CjLU+M9u97vm9P06dGbiKl2Tzwr71xI2RYuYw887+hqIRgsgKDhqdOvqb9gdxefz1G9LpjA8st9OYzxr0Y3qAs5o8k4YaFAJlpZJy+r310D57oIYpCllzsD7xs+W9NRoLhhvB1hNWyQ6PFyFI/qqRVgjeYvkMQ4IU4cxLE8OOjyEiPvubsYVBgsONV1JjHPwXKuxXUM+Hg9uwTOwn+iy/ZothPN/NuT97SSH63EW73FyEIL87JZdS8J/Qfw="
