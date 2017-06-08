@@ -1,9 +1,9 @@
-""" Testcases for Python If-Else """
+''' Testcases for Python If-Else '''
 from Introduction import pythonifelse
 
 
 def test_odd():
-    """ if n is odd, print 'Weired' """
+    ''' if n is odd, print 'Weired' '''
     assert pythonifelse.ifelse(3) == "Weird"
     assert pythonifelse.ifelse(99) == "Weird"
     assert pythonifelse.ifelse(69) == "Weird"
@@ -11,12 +11,12 @@ def test_odd():
     assert pythonifelse.ifelse(15) == "Weird"
 
 def test_even_in_range_2_5():
-    """ if n is even and in the inclusive range of 2 to 5 print 'Not Weired' """
+    '''  if n is even and in the inclusive range of 2 to 5 print 'Not Weired' '''
     assert pythonifelse.ifelse(2) == "Not Weird"
     assert pythonifelse.ifelse(4) == "Not Weird"
 
 def test_even_in_range_6_20():
-    """ if n is even and in the inclusive range of 6 to 20 print 'Weired' """
+    '''  if n is even and in the inclusive range of 6 to 20 print 'Weired' '''
     assert pythonifelse.ifelse(6) == "Weird"
     assert pythonifelse.ifelse(8) == "Weird"
     assert pythonifelse.ifelse(10) == "Weird"
