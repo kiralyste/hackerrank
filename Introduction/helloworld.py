@@ -1,3 +1,2 @@
 def greetings(msg):
-    return print(msg)
-
+    return msg
