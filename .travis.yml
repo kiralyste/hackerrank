@@ -4,4 +4,4 @@ language: python
 install: 
 #- pip install -r requirements.txt"
 
-script: pytest -v Test_Introduction/test_helloworld.py
+script: pytest -v Test_Introduction
