@@ -9,8 +9,8 @@ install:
 
 script: 
 - java -version
-- pytest -v Test_Introduction
-- sonar-scanner
+#- pytest -v Test_Introduction
+- sonar-scanner -X
 
 addons:
   apt:
