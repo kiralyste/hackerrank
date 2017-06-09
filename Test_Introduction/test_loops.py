@@ -4,7 +4,7 @@ from Introduction import loops
 
 def test_loops_output(capsys):
     loops.loops(5)
-    out = capsys.readouterr()
+    out,err = capsys.readouterr()
     assert out == "0\n1\n4\n9\n16\n"
 
 def test_myoutput(capsys): # or use "capfd" for fd-level
