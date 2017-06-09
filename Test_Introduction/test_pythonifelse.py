@@ -1,4 +1,4 @@
-''' Testcases for Python If-Else '''
+' Testcases for Python If-Else '
 from Introduction import pythonifelse
 
 
@@ -27,7 +27,7 @@ def test_even_in_range_6_20():
     assert pythonifelse.ifelse(20) == "Weird"
 
 def test_even_greater_20():
-    """ if n is even and greater than 20 print 'Not Weired' """
+    '''  if n is even and greater than 20 print 'Not Weired' '''
     assert pythonifelse.ifelse(20) == "Weird"
     assert pythonifelse.ifelse(421) == "Weird"
     assert pythonifelse.ifelse(21) == "Weird"

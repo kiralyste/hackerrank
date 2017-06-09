@@ -1,4 +1,4 @@
-''' hackerrank-python '''
+''' hackerrank.python '''
 
 from Introduction import helloworld
 from Introduction import pythonifelse

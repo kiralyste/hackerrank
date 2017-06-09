@@ -1,7 +1,7 @@
-''' Python If-Else '''
+' Python If-Else '
 
 def ifelse(num):
-    ''' Handle different if-else Statements '''
+    ' Handle different if-else Statements '
     if ((num % 2) == 0) and (num >= 2) and (num <= 5):
         return "Not Weird"
     if ((num % 2) == 0) and (num >= 6) and (num <= 20):
