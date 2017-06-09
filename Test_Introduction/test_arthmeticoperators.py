@@ -6,7 +6,7 @@ def test_sum():
     assert arithmeticoperators.add(1, 2) == 3
     assert arithmeticoperators.add(2, 3) == 5
     assert arithmeticoperators.add(3, 2) == 5
-    assert arithmeticoperators.add(354, 481) == 935
+    assert arithmeticoperators.add(354, 481) == 835
     assert arithmeticoperators.add(154, 3967) == 4121
 
 def test_minus():
@@ -22,4 +22,3 @@ def test_multiply():
     assert arithmeticoperators.mul(3, 2) == 6
     assert arithmeticoperators.mul(8, 3) == 24
     assert arithmeticoperators.mul(6, 6) == 36
-

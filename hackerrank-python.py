@@ -14,4 +14,3 @@ if __name__ == '__main__':
     print(arithmeticoperators.add(3, 2))
     print(arithmeticoperators.minus(3, 2))
     print(arithmeticoperators.mul(3, 2))
-
