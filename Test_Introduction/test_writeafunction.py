@@ -4,7 +4,7 @@ from Introduction import writeafunction
 
 def test_is_leap_year():
     ''' Testcases for different Leap years and non-leap years '''
-    if not writeafunction.is_leap(1990):
+    if writeafunction.is_leap(1990):
         raise AssertionError
     else:
         pass
