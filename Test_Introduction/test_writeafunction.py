@@ -16,17 +16,9 @@ def test_is_not_leap_year():
     """
     if writeafunction.is_leap(2019):
         raise AssertionError
-    else:
-        pass
     if writeafunction.is_leap(2021):
         raise AssertionError
-    else:
-        pass
     if writeafunction.is_leap(2022):
         raise AssertionError
-    else:
-        pass
     if writeafunction.is_leap(2023):
         raise AssertionError
-    else:
-        pass
