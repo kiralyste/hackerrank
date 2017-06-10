@@ -3,8 +3,11 @@
 from Introduction import loops
 
 def test_loops_output(capsys):
-    loops.loops(5)
+    '''  testcase for 5 lines '''
+    loops.loop(5)
     out, err = capsys.readouterr()
-    assert out == "0\n1\n4\n9\n16\n"
-    
-    #source https://docs.pytest.org/en/latest/capture.html#accessing-captured-output-from-a-test-function
+    assert out == """0
+                     1
+                     4
+                     9
+                     16\n"""
