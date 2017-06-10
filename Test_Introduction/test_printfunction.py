@@ -8,4 +8,5 @@ def test_printfunction(capsys):
     """
     printfunction.print_integer_row(3)
     out, err = capsys.readouterr()
-    assert out == 123
+    assert out == "123"
+    
