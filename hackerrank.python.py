@@ -1,7 +1,11 @@
 ''' hackerrank.python '''
+from BasicDataTypes import lists
 
-from Introduction import printfunction
 
 if __name__ == '__main__':
-    printfunction.print_integer_row(3)
+    lists.start()
+
+
     
+
+
