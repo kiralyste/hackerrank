@@ -10,6 +10,7 @@ install:
 script: 
 #- java -version
 - pytest -v Test_Introduction
+- pytest -v Test_BasicDataTypes
 - sonar-scanner
 
 addons:
